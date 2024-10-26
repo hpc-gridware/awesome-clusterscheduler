@@ -1,6 +1,6 @@
 # awesome-clusterscheduler
 
-This repository contains a curated list of software, services, and recipes compatible with Open Cluster Scheduler and Gridware Cluster Scheduler.
+This repository contains a curated list of freely downloadable or open source software, services, and recipes compatible with Open Cluster Scheduler and Gridware Cluster Scheduler.
 
 The main compatibility layer is the continued support of "**SGE**" ("Sun Grid Engine") interfaces. This includes command-line calls (like qsub, qstat, etc.), DRMAA-compatible job submission libraries (for Python, Java, Go, C), JSV interfaces, and more.
 
