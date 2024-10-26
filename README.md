@@ -12,10 +12,9 @@ If any "SGE" integration isn't working as expected, please let us know. We're co
 - [Cromwell](https://github.com/broadinstitute/cromwell) - Scientific workflow engine designed for simplicity & scalability. Trivially transition between one off use cases to massive scale production environments. The integration is [here](https://github.com/broadinstitute/cromwell/blob/master/docs/backends/SGE.md?plain=1)
 - [XNAT](https://wiki.xnat.org/documentation/configuring-the-pipeline-engine) - XNAT is an open source imaging informatics platform.
 
-## MPI Libraries (any MPI lib can be integrated using hostfile and tight integration wrappers)
+### Automation
 
-- [Intel MPI](https://www.intel.com/content/www/us/en/developer/tools/oneapi/mpi-library.html)
-- [Open MPI](https://www.open-mpi.org/) - Check “**Launching with Grid Engine”** mentioned [here](https://docs.open-mpi.org/en/v5.0.x/launching-apps/gridengine.html)
+- [Jenkins Integration](https://github.com/jenkinsci/sge-cloud-plugin) Submit Jenkins jobs to SGE.
 
 ## Programming
 
@@ -38,11 +37,20 @@ If any "SGE" integration isn't working as expected, please let us know. We're co
  - [FlashWeave.jl](https://juliapackages.com/p/flashweave)
  - [SGEArrays.jl](https://juliapackages.com/p/sgearrays)
 
+### MPI Libraries (any MPI lib can be integrated using hostfile and tight integration wrappers)
+
+- [Intel MPI](https://www.intel.com/content/www/us/en/developer/tools/oneapi/mpi-library.html)
+- [Open MPI](https://www.open-mpi.org/) - Check “**Launching with Grid Engine”** mentioned [here](https://docs.open-mpi.org/en/v5.0.x/launching-apps/gridengine.html)
+
 ### Python
 
 - [PyGridtools](https://github.com/pygridtools/drmaa-python) - Job submission library based on the _libdrmaa.so_.
 - [Dask](https://github.com/dask/dask-jobqueue) - Deploy Dask on job schedulers.
 - [Python DRMAA](https://pypi.org/project/drmaa/) - Simple job submission library for Python.
+
+### REST API
+
+- [REST API](https://github.com/epam/grid-engine-api) EPAM REST API for Grid Engine.
 
 ### R
 
