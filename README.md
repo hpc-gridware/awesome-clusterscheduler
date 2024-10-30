@@ -39,7 +39,7 @@ If any "SGE" integration isn't working as expected, please let us know. We're co
 
 ### MPI Libraries (any MPI lib can be integrated using hostfile and tight integration wrappers)
 
-- [Intel MPI](https://www.intel.com/content/www/us/en/developer/tools/oneapi/mpi-library.html)
+- [Intel MPI](https://www.intel.com/content/www/us/en/developer/tools/oneapi/mpi-library.html) - Check the "Grid Engine" part (which is compatible) [here](https://www.intel.com/content/www/us/en/docs/mpi-library/developer-guide-linux/2021-13/job-schedulers-support.html)
 - [Open MPI](https://www.open-mpi.org/) - Check “**Launching with Grid Engine”** mentioned [here](https://docs.open-mpi.org/en/v5.0.x/launching-apps/gridengine.html)
 
 ### Python
